@@ -30,6 +30,7 @@ the car stops (result of the function execution), but we dont know how it happen
 data encapsulation:
 -bundling of the data and the functions in a single unit 
 -also called data hiding 
+-declare the state as private and declare public getter and setter which can helps us to set the state and get the value of the state 
 
 
 
