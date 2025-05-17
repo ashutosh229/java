@@ -1,4 +1,6 @@
 objects means the real life entities like car, bike, tomato, etc. 
-
 object contains states(properties) and methods(behaviour) 
+
+procedural programming:
+
 
