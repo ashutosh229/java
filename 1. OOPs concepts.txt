@@ -2,5 +2,10 @@ objects means the real life entities like car, bike, tomato, etc.
 object contains states(properties) and methods(behaviour) 
 
 procedural programming:
-
+program is divided into functions 
+does not provide way of hiding the data because the data flows freely from function to function 
+gives importance to functions 
+overloading is not possible 
+inheritance is not possible 
+code reusability is not present 
 
