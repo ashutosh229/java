@@ -27,6 +27,11 @@ the car stops (result of the function execution), but we dont know how it happen
 -achieved through interface and abstract classes 
 -increases the security and confidentiality of the system 
 
+data encapsulation:
+-bundling of the data and the functions in a single unit 
+-also called data hiding 
+
+
 
 
 
