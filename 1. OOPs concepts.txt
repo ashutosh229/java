@@ -19,4 +19,16 @@ overloading is possible
 inheritance is possible
 code reusability is possible
 
+data abstraction:
+-hides the internal implementation (actual coding of the function/method of the object) and 
+-shows only the essential functionality (result or response after using the function on the object)
+e.g., in car (object), we only see the break pedal (function), and when we press it (execute the function on the object),
+the car stops (result of the function execution), but we dont know how it happened (actual implementation of the function is not known)
+-achieved through interface and abstract classes 
+-increases the security and confidentiality of the system 
+
+
+
+
+
 
