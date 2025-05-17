@@ -1,5 +1,7 @@
 objects means the real life entities like car, bike, tomato, etc. 
-object contains states(properties) and methods(behaviour) 
+object contains states(properties) and methods(behaviour)
+class is the blueprint of the objects
+objects can be created from these blueprints or classes 
 
 procedural programming:
 program is divided into functions 
