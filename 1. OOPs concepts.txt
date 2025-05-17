@@ -9,3 +9,12 @@ overloading is not possible
 inheritance is not possible 
 code reusability is not present 
 
+OOPs:
+program is divided into objects 
+provides a way of hiding the data
+gives importance to objects 
+overloading is possible
+inheritance is possible
+code reusability is possible
+
+
