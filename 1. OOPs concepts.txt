@@ -1,0 +1,4 @@
+objects means the real life entities like car, bike, tomato, etc. 
+
+object contains states and methods 
+
