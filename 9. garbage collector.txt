@@ -48,17 +48,12 @@ gc deletes the unreferenced objects from the heap and deletes the weakly referen
 when the heap memory goes full, it throws the "java.lang.OutofMemoryError"
 the algorithm used by the gc to clean the heap is called the Mark and Sweep algorithm
 
-
-
-
-
 heap structure and algorithm of allocating objects:
 the heap memory is divided into young generation and old/tenured generation
 young generation is again divided into 3 parts: eden, S0 and S1
 S0 and S1 together known as the survivor space
 one very important concept is the algorithm which we use for the storing of objects in the heap 
 difference between minor gc (in young gen space) and major gc (in old gen space)
-
 
 there is also one type of space called the non-heap which is also called the metaspace
 it was earlier know as permgen or permanent generation and it was the part of the heap and metaspace is not
