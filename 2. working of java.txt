@@ -22,7 +22,14 @@ features of java:
     -we have the .java file as the java program
     -the compiler converts it to .class file which is the bytecode 
     -the JVM then converts it to .exe file which is the machine code or the executable file which can be run on any machine 
-    -
 2. JRE
+    - Java Runtime Environment 
+    - It contains the JVM and the class libraries 
+    - the byte code can contain the usage of some class libraries also and therefore the libraries should be present for the HVM 
+    to use and therefore the libraries along with the JVM should be present in the JRE for JVM to run the byte code 
+    - therefore if we have the JRE alone, we can run the bytecode and convert to machine code 
+    - if we have only JVM, then we cannot run the bytecode since we dont have the class libraries to understand
 3. JDK
+    - Java Development Kit 
+    - 
 
