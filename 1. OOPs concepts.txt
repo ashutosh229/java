@@ -95,6 +95,18 @@ types of polymorphism:
         - if the method will be called by the child's object, implementation of the child will work 
     - since it is decided during the runtime, which one should work, it is the runtime polymorphism
 
+relationships:
+-is-a relationship:
+    -achieved through inheritance 
+
+-has-a relationship:
+    -whenever an object of some other class is used in some other class, its called the has-a relationship
+    -has-a relationship can be one-to-one, one-to-many, many-to-one, many-to-many
+    -one-to-one: one class has just one object of another class 
+    -one-to-many: one class has many objects of another class 
+    -many-to-one: many classes have the one object of another single class 
+    -many-to-many: many classes have the objects of many other classes (this one is complex to understand)
+
 
 
 
