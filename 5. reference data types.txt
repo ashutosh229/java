@@ -10,5 +10,9 @@ arrays
 strings (immutable in java)
 enums
 
+some importtant points to consider:
 if not initialized explicitly, the reference variables are automatically initialized to null indicating that they do not
 point to any object right now
+the objects whose addresses are stored by these reference variables are stored in the heap memory 
+when an object is not being referenced by any reference variable, it becomes eligible for garbage collection and freeing up memory 
+
