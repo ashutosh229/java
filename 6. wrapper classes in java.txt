@@ -13,3 +13,18 @@ instances of wrapper classes are immutable
 manual conversions between the wrapper class and corresponding primitives:
 -Integer wrapperInt = Integer.valueOf(primitiveInt) // primitive -> wrapper 
 -int primitiveInt = wrapperInt.intValue(); // wrapper -> primitive
+
+automatic conversion between the wrapper class and corresponding primitives:
+-this is done by the compiler
+-Autoboxing:
+    -conversion of primitive type to wrapper 
+    -it happes when we:
+        -assign a primitive type to a wrapper class variable 
+        -pass a primitive as a parameter to the function which expects the wrapper class variable 
+        -adding primitives to collections that stores objects
+-unboxing:
+    -conversion of wrapper class instance to primitive data type 
+    -it happes when we:
+        -assign a wrapper class variable to a  primitive type
+        -pass a wrapper class instance as a parameter to the function which expects the primitive type variable 
+        -adding wrapper class objects to collections that stores primitives
