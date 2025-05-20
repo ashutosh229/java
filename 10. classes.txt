@@ -1,5 +1,7 @@
 concrete class: a class that provides implementations for all its methods and can be instantiated to create objects 
+
 abstract class: cannot be instantiated on its own and can contain the abstract methods which are to be implemented by the subclass 
+
 nested:
 - class which is defined inside a class
     - static:
@@ -15,4 +17,16 @@ nested:
             - anonymous:
                 - unnamed class 
                 - defined and instantiated in a single expression
-                - 
+                - used for implementing the abstract classes and interfaces on the fly
+            - member:
+                - non static class 
+                - defined within another class 
+                - it has the access to the members of the outer class 
+                - while accessing this inner class, we need to create the object of the outer class 
+                - e.g., Outer.Inner inner = outer.new Inner(); 
+
+Object:
+-it is the root class of all classes
+-all the other classes implicitly inherit from this class 
+-this class has several methods that are common to all the objects in java 
+
