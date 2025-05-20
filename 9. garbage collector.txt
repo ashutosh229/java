@@ -10,6 +10,9 @@ stores the temporary variables and separate memory block for methods
 store primitive data types 
 store the reference of the heap objects
 each thread has its own stack memory but they share a common heap memory
+variables within a scope is only visible and as soon as the variable goes out of the scope, it gets deleted from the 
+stack in LIFO order 
+when the stack is full,then we get the java.lang.StackOverflowError
 
 the garbage collector deletes all the objects and strings in the string pool, from the heap when they are not referenced by 
 any other variable in the stack 
@@ -18,7 +21,7 @@ the JVM is responsible for running the garbage collector
 we can explicitly run the garbage collector using the system.gc() command in the application code 
 even if we use the above command, there is no guarantee that the garbage collector will be ran and it all 
 depends on the JVM 
- 
+therefore it is called automatic memory management 
 
 
 one very concept is to make the stack and heap diagram from the code segment given 
