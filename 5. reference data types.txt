@@ -20,5 +20,7 @@ when an object is not being referenced by any reference variable, it becomes eli
 reference types have some parameters associated with them which can be accessed via the dot operator;
 -fields: these are the properties of the reference types 
 -methods: these are the functions associated with the reference types
+the primitives are immutable but the reference types are mutable 
+
 
 
