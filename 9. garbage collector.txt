@@ -5,3 +5,6 @@ heap
 both the types of memory are created by the JVM 
 both the types of memory are stored in the RAM 
 
+stack:
+stores the temporary variables and separate memory block for methods 
+store primitive data types 
