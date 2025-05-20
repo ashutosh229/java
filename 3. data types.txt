@@ -1,0 +1,5 @@
+data types:
+    - primitive:
+        - built in data types 
+        - byte(8), short(16), int(32), long(64), float(32), double(64), char(16), boolean(1)
+    - reference:
