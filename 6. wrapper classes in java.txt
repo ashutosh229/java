@@ -33,3 +33,8 @@ applications:
 -collections and generics can work only with objects and therefore in order to store primitives, we need the 
 wrapper classes and the autoboxing and unboxing sort of concepts 
 -plays important role in method overloading by accepting both the primitives and wrapper classes 
+
+important considerations:
+-Performance: Frequent boxing and unboxing can lead to performance overhead due to object creation and garbage collection.
+-Null Values: Unboxing a null wrapper object results in a NullPointerException.
+-Equality Checks: Be cautious when comparing wrapper objects using == and equals() since the == operator checks for reference equality, while equals() checks for value equality.
