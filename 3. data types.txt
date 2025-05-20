@@ -3,3 +3,23 @@ data types:
         - built in data types 
         - byte(8), short(16), int(32), long(64), float(32), double(64), char(16), boolean(1)
     - reference:
+        - custom built data types, by the user 
+        - strings, arrays, classes, interfaces 
+
+type conversion/casting:
+    - implicit:
+        - this is internal conversion
+        - occurs when converting the smaller datatype into larger 
+        - done automatically by the compiler 
+        - its safe and no data is lost
+        - byte → short → int → long → float → double
+        - char can be widened to int, long, float, or double
+    - explicit:
+        - this is external conversion 
+        - occurs when the large data type is converted into smaller 
+        - not done automatically by the compiler because it can lead to loss in data 
+        - should be done by the programmer 
+        - explicit conversions can lead to loss of precision or unexpected results if not handled carefully
+        - targetType variableName = (targetType) currentVariable (or value)
+        
+         
