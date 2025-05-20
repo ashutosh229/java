@@ -1,0 +1,2 @@
+there are formats for storing the floating point numbers in the memory
+the most common format which we follow is the IEEE754 format 
