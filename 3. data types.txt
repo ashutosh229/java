@@ -21,5 +21,14 @@ type conversion/casting:
         - should be done by the programmer 
         - explicit conversions can lead to loss of precision or unexpected results if not handled carefully
         - targetType variableName = (targetType) currentVariable (or value)
-        
-         
+
+conversion of strings:
+    - strings to primitives:
+        - java provides wrapper classes containing static methods which are basically the parsing functions which can 
+        parse the strings into desired primitive data types 
+        - Integer.parseInt("123") is an example 
+    - primitives to strings:
+        - this is much more simpler as any primitive type can be converted to string without any edge cases and handling of errors 
+        - there are 2 ways of doing so:
+            - concatenation: 123+"" = "123"
+            - String wrapper class: String.valueOf(123) = "123"
