@@ -15,4 +15,8 @@ if not initialized explicitly, the reference variables are automatically initial
 point to any object right now
 the objects whose addresses are stored by these reference variables are stored in the heap memory 
 when an object is not being referenced by any reference variable, it becomes eligible for garbage collection and freeing up memory 
+reference types have some parameters associated with them which can be accessed via the dot operator;
+-fields: these are the properties of the reference types 
+-methods: these are the functions associated with the reference types 
+
 
