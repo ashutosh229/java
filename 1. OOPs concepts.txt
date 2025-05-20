@@ -60,6 +60,12 @@ types of inheritance:
 3. hierarchial: b inherits from a and also c inherits from a
 4. multiple: c inherits from both a and b (not allowed in java)
 
+why the multiple inheritance is not allowed in java?
+it is because of the diamond problem which states that if both the parent classes will have the same function, then
+the child class wont be understanding which function to use in its own implementation
+
+
+
 
 
 
