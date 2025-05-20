@@ -107,6 +107,16 @@ relationships:
     -many-to-one: many classes have the one object of another single class 
     -many-to-many: many classes have the objects of many other classes (this one is complex to understand)
 
+association: 
+-relationship between the 2 different objects
+-types of association:
+    - aggregation:
+        -weak relation 
+        -ending of one object will not end the other object and both of them can survive independently
+    - composition: 
+        -strong relation 
+        -ending of one object will also end the other object
+
 
 
 
