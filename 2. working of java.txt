@@ -42,6 +42,14 @@ JVM is platfrom dependent and therefore
 JRE is also platform dependent and therefore
 JDK is also platform dependent
 
+some other important terms:
+1. JSE
+    - Java Standard Edition
+2. JEE
+    - Java Enterprise Edition
+3. JME
+    - Java Micro/Mobile Edition
+
 
 
 
