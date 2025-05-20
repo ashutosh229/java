@@ -5,3 +5,11 @@ enum:
 -enum can also have fields, methods and constructors
 -enums also have predefined methods from the java.lang.Enum like values() and valueOf()
 -enums can be effectively used in switch statements and also provide type safety 
+
+POJO class:
+-Plain Old Java Object 
+-it is a simple java class 
+-does not extend some specialized classes given by the  EJB framework  
+-does not implement some interfaces given by the  EJB framework
+-in short, it do not have any restrictions
+-
