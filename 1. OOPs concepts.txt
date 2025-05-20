@@ -47,6 +47,16 @@ private: accessible only within the same class (one class access)
 protected: accessible in the same package and by the subclasses of different package (multi class access)
 default: accessible only within the same package (multi class within one package access)
 
+inheritance:
+-capability of a class to inherit properties from their parent class 
+-inherits both the states and functions from the parent class
+-child can make its own functions and states also which is only his
+-can be implemented using the extends keywork
+-used for increasing the reusability of the code 
+
+
+
+
 
 
 
