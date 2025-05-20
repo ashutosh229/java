@@ -1,1 +1,13 @@
 methods are the codeblocks which helps us to perform some task by introducing code reusability and modularity 
+
+types of methods in java:
+system defined methods: defined in the built in libraries of java 
+user defined methods: defined by the user 
+overloaded methods: methods which are overloaded 
+overriden methods: methods which are overriden 
+static methods: they belong to the class and not to the objects of the class and they can be called without 
+creating the object of the class. They cannot access the instance states and methods directly 
+final methods: these cannot be overriden by the subclasses and these methods ensures that the behaviour remains unchanged in the subclass also 
+abstract methods: methods which are declared without an implementation and must be implemented by subclasses 
+and they are defined in the abstract classes 
+
