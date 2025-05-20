@@ -19,6 +19,10 @@ features of java:
         - bytecode: independent
         - JVM: dependent
         - machine code: independent
+    -we have the .java file as the java program
+    -the compiler converts it to .class file which is the bytecode 
+    -the JVM then converts it to .exe file which is the machine code or the executable file which can be run on any machine 
+    -
 2. JRE
 3. JDK
 
