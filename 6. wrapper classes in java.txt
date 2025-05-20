@@ -28,3 +28,8 @@ automatic conversion between the wrapper class and corresponding primitives:
         -assign a wrapper class variable to a  primitive type
         -pass a wrapper class instance as a parameter to the function which expects the primitive type variable 
         -adding wrapper class objects to collections that stores primitives
+
+applications:
+-collections and generics can work only with objects and therefore in order to store primitives, we need the 
+wrapper classes and the autoboxing and unboxing sort of concepts 
+-plays important role in method overloading by accepting both the primitives and wrapper classes 
