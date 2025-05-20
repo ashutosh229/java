@@ -13,7 +13,7 @@ for e.g., class NumberBox<T extends Number> {}
 in the example above, T can only take the types which are the subclasses of the Number class 
 
 wildcards:
--they are used in java generics
+-they are used in java generics for representing unknown types inside the generic types also
 -they are represented by the question mark (?)
 -denoting an unknown type 
 -unbounded wildcards:
