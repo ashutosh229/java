@@ -1,0 +1,15 @@
+Java provides wrapper classes for each of its primitive data types 
+using these classes, we can treat the primitive data types as objects 
+
+int primitiveInt = 10; //primitive integer 10
+Integer wrapperInt = Integer.valueOf(10); //wrapper integer 10
+
+key features:
+since these are classes, there are methods and states which can be accessed by the objects of these wrapper classes 
+these methods can convert types, parse types, and much more
+unlike the primitives, these types can be null since they are references to the objects of the wrapper classes 
+instances of wrapper classes are immutable 
+
+manual conversions between the wrapper class and corresponding primitives:
+-Integer wrapperInt = Integer.valueOf(primitiveInt) // primitive -> wrapper 
+-int primitiveInt = wrapperInt.intValue(); // wrapper -> primitive
