@@ -1,0 +1,7 @@
+2 types of memory:
+stack 
+heap 
+
+both the types of memory are created by the JVM 
+both the types of memory are stored in the RAM 
+
