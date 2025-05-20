@@ -1,2 +1,6 @@
 generic classes:
+-these classes as the name suggests allows us to define a generalized datatype as the 
+type parameter in them
+-we pass this parameter at the time of class instantiation 
+-class className<T>{} where T is the type placeholder used here 
 -
