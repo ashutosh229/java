@@ -86,7 +86,14 @@ types of polymorphism:
     - this is so because while calling the functions of the class, their return type is not taken into consideration because 
     it can happen that while writing the code, we do not care about the return type of the method and just wanted to call it 
     - difference in the parameters means number of parameters or type of parameters
-2. run time / dynamic polymorphism / method overriding 
+2. run time / dynamic polymorphism / method overriding
+    - this is the type of polymorphism implemented via inheritance
+    - we inherit the parent from the child but write the implementation of the functions in the child 
+    - while writing the overriden implementations in the child, the return type, method name and arguments all are same 
+    - during runtime, 
+        - if the method will be called by the parent's object, implementation of the parent will work 
+        - if the method will be called by the child's object, implementation of the child will work 
+    - since it is decided during the runtime, which one should work, it is the  runtime polymorphism
 
 
 
