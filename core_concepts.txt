@@ -2,5 +2,14 @@ when we write some state in the class, we can access it via two ways:
 1. plain access: state 
 2. reference access: this.state
 
+there are two things: extends and implements 
+extends: 
+    -class and class (inheritance: single, multilevel, hierarchial)
+    -interface and interface (inheritance: single, multilevel, hierarchial)
+implements: 
+    -class and interface (solution of the diamond problem)
+
+    
+
 
 
