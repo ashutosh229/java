@@ -1,0 +1,3 @@
+enum:
+-it is a special data type which enables us to define a set of predefined constants as a variable 
+-
