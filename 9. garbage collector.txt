@@ -14,6 +14,10 @@ variables within a scope is only visible and as soon as the variable goes out of
 stack in LIFO order 
 when the stack is full,then we get the java.lang.StackOverflowError
 
+types of references:
+-strong reference:
+-weak reference:
+
 the garbage collector deletes all the objects and strings in the string pool, from the heap when they are not referenced by 
 any other variable in the stack 
 the garbage collector runs periodically and deletes the objects in the heap 
