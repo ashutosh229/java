@@ -1,3 +1,6 @@
 there are formats for storing the floating point numbers in the memory
 the most common format which we follow is the IEEE754 format 
 in that format, we have a way of converting the floating point number to the memory representation and vice versa 
+due to the algorithm, when we fetch the value back from the memory, the value which we get is something else than
+the value which we have stored in the variable 
+this happens with only some values and not with every floating point number which we store 
