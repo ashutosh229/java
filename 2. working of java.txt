@@ -5,6 +5,10 @@ features of java:
 
 3 main components of java:
 1. JVM
+    - Java Virtual Machine 
+    - it is an abstract machine 
+    - by abstract, we mean to say that it do not exist physically but exist in the software world 
+    - 
 2. JRE
 3. JDK
 
