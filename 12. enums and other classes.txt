@@ -9,7 +9,7 @@ enum:
 POJO class:
 -Plain Old Java Object 
 -it is a simple java class 
--does not extend some specialized classes given by the  EJB framework  
--does not implement some interfaces given by the  EJB framework
+-does not extend some prespecified classes given by the  EJB framework  
+-does not implement some prespecified interfaces given by the  EJB framework
 -in short, it do not have any restrictions
 -
