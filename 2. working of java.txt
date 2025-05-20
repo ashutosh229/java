@@ -55,6 +55,13 @@ some other important terms:
     - Java Micro/Mobile Edition
     - It contains the JSE along with some features and APIs needed for the mobile applications development 
 
+How to write a java program?
+1. the name of the file will be same as the name of the class 
+2. there will be only one public class in a file 
+3. there can be states, constructors, methods, nested classes in a class 
+4. main() method is the starting point of the program, when the bytecode is generated, the JVM executes the bytecode starting from the main() method in the bytecode itself 
+5. 
+
 
 
 
