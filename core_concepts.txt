@@ -1,0 +1,6 @@
+when we write some state in the class, we can access it via two ways:
+1. plain access: state 
+2. reference access: this.state
+
+
+

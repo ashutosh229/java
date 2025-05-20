@@ -28,11 +28,25 @@ the car stops (result of the function execution), but we dont know how it happen
 -increases the security and confidentiality of the system 
 
 data encapsulation:
--bundling of the data and the functions in a single unit 
+-bundling of the data (data members/properties/data variables/states) and the functions(data methods/functionalities/behaviours) 
+in a single unit (called the class)
 -also called data hiding 
+-data is hidden because we can access the states and methods using the objects itself and then we wont be needing the actual code of the class
 -declare the state as private and declare public getter and setter which can helps us to set the state and get the value of the state 
 -it enhances the security and access control 
--this is also called loosely coupled data 
+-this is also called loosely coupled data
+-loosely coupled data means that the control on the data is on the hands on limited functions and classes 
+-tightly coupled data means that the control on the data is on the hand on many functions and classes and all of them 
+are coupled tightly via the free flow of the data 
+
+access specifiers:
+public: any other class can use this (multi class access) 
+private: accessible only within the same class (one class access)
+protected: accessible in the same package and by the subclasses of different package (multi class access)
+default: accessible only within the same package (multi class within one package access)
+
+
+
 
 
 
