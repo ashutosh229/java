@@ -32,3 +32,11 @@ conversion of strings:
         - there are 2 ways of doing so:
             - concatenation: 123+"" = "123"
             - String wrapper class: String.valueOf(123) = "123"
+
+some important considerations while dealing with conversions:
+1. not all the types are compatible of conversion 
+2. while converting one type to other, always check the compatibility 
+3. data loss occurs when we convert the types 
+4. while converting, we have to keep care of the ranges and all 
+5. wrapper classes provides static methods for built in conversions 
+
