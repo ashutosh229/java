@@ -40,10 +40,13 @@ in a single unit (called the class)
 are coupled tightly via the free flow of the data 
 
 access specifiers:
+these can be used on states, methods, classes, interfaces
 public: any other class can use this (multi class access) 
 private: accessible only within the same class (one class access)
 protected: accessible in the same package and by the subclasses of different package (multi class access)
 default: accessible only within the same package (multi class within one package access)
+
+
 
 
 
