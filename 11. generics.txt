@@ -20,4 +20,8 @@ wildcards:
     - represents an unknown type 
     - useful when the method can be implemented using methods in the Object class since 
     the type of the parameter is unknown
+-upper bounded wildcards:
+    - restricts the unknown type to be of some specific type by extending it to some class 
+    - the unknown type can then only accepts the types which are the subclasses of the parent class 
+    - useful when we want to read data from a structure 
     
