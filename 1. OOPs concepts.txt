@@ -33,6 +33,7 @@ in a single unit (called the class)
 -also called data hiding 
 -data is hidden because we can access the states and methods using the objects itself and then we wont be needing the actual code of the class
 -declare the state as private and declare public getter and setter which can helps us to set the state and get the value of the state 
+-by making the state as private, we wont be able to get it directly in some other class and thats why the data is hidden
 -it enhances the security and access control 
 -this is also called loosely coupled data
 -loosely coupled data means that the control on the data is on the hands on limited functions and classes 
