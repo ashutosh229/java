@@ -1,0 +1,1 @@
+methods are the codeblocks which helps us to perform some task by introducing code reusability and modularity 
