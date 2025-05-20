@@ -45,10 +45,16 @@ JDK is also platform dependent
 some other important terms:
 1. JSE
     - Java Standard Edition
+    - It is basically the standard java or the basic java or the fundamental or the core java which we learn as a early developer 
+    - it contains only the basics like classes, multithreading, inheritance, etc. features
 2. JEE
     - Java Enterprise Edition
+    - This edition of java is used in industries to develop large scale applications 
+    - It comes with JSE along with some additional features like APIs, Servelets, JSP, Transactional APIs, Persistence API, etc. 
 3. JME
     - Java Micro/Mobile Edition
+    - It contains the JSE along with some features and APIs needed for the mobile applications development 
+    - 
 
 
 
