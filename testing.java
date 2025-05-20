@@ -4,6 +4,8 @@ public class testing {
         System.out.println("This is a test.");
         System.out.println("Testing, 1, 2, 3...");
         System.out.println("this is another change!");
+        Season season = Season.SUMMER;
+        System.err.println(season.getDescription());
     }
 }
 
