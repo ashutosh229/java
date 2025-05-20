@@ -1,3 +1,7 @@
 enum:
 -it is a special data type which enables us to define a set of predefined constants as a variable 
--
+-public enum Day {Monday, Tuesday, Wednesday}
+-each value within the enum is a constant 
+-enum can also have fields, methods and constructors
+-enums also have predefined methods from the java.lang.Enum like values() and valueOf()
+-enums can be effectively used in switch statements and also provide type safety 
