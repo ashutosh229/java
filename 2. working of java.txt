@@ -54,7 +54,6 @@ some other important terms:
 3. JME
     - Java Micro/Mobile Edition
     - It contains the JSE along with some features and APIs needed for the mobile applications development 
-    - 
 
 
 
