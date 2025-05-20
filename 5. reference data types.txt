@@ -1,3 +1,5 @@
 reference data types are also known as non-primitive types 
 they are used to store references (memory addresses) to objects rather than the actual data itself
 This means that when you assign a reference type variable to another, both variables point to the same object in memory.
+modifying the object via one reference affects the other, since both refer to the same memory location.
+
