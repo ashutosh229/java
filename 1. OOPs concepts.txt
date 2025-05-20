@@ -80,7 +80,10 @@ polymorphism:
 -therefore the word means that there are multiple forms of the same thing or a single thing can behave differently in different situations 
 
 types of polymorphism:
-1. compile time / static polymorphism / method overloading
+1. compile time / static polymorphism / method overloading 
+    - this type of polymorphism arises due to similarity in the name of the method and difference in the parameters of the method
+    - we cannot perform this polymorphism on the basis of the difference in the return type of the functions 
+    - difference in the parameters means number of parameters or type of parameters
 2. run time / dynamic polymorphism / method overriding 
 
 
