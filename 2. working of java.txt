@@ -8,11 +8,17 @@ features of java:
     - Java Virtual Machine 
     - it is an abstract machine 
     - by abstract, we mean to say that it do not exist physically but exist as a software 
-    - java program -> compiler -> compiled code -> JVM -> machine code -> can be run on any machine 
+    - java program -> compiler -> compiled code (bytecode)-> JVM -> machine code -> can be run on any machine 
     - since JVM converts the compiled code into the machine code which can be run anywhere on any machine, it is 
     the JVM only which provides us the level of portability which we have in java 
     - JVM is a platform dependent software and it is different for different platforms depending on the specifications of the platform in use 
-    - JVM contains JIT compiler where JIT stands for Just In Time 
+    - JVM contains JIT compiler where JIT stands for Just In Time
+    - independence of the components in terms of platform:
+        - java program: independent
+        - compiler: independent 
+        - bytecode: independent
+        - JVM: dependent
+        - machine code: independent
 2. JRE
 3. JDK
 
