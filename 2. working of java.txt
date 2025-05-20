@@ -31,5 +31,14 @@ features of java:
     - if we have only JVM, then we cannot run the bytecode since we dont have the class libraries to understand
 3. JDK
     - Java Development Kit 
-    - 
+    - it contains everything which we need to have for writting the java program 
+    - it contains the programming language java, the compiler need to compile the code and the debugger 
+    - it also contains the JRE alongside these things 
+    - therefore the JDK is the ultimate thing which we need to have for writing, compiling and running the java code 
+
+platform independence of the components:
+JVM is platfrom dependent and therefore
+JRE is also platform dependent and therefore
+JDK is also platform dependent
+
 
