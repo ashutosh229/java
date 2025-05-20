@@ -2,4 +2,9 @@ features of java:
 -platform independent language 
 -follow the OOPs principles 
 -portability (WORA)
--
+
+3 main components of java:
+1. JVM
+2. JRE
+3. JDK
+
