@@ -28,4 +28,12 @@ wildcards:
     - restricts the unknown type to be of some specific type or supertype by using the super keyword
     - the unknown type can then only accepts the types which are the superclasses of the child class 
     - useful when we want to write the data to a structure
-    
+
+PECS principle:
+-this is a mnemonic for using the wildcards in generics 
+-PE:
+    - Producer Extends
+    - use <? extends T> when the method needs to read(produce) data of type T
+-CS:
+    - Consumer Super 
+    - use <? super T> when the method needs to write(consume) data of type T
