@@ -54,6 +54,11 @@ inheritance:
 -can be implemented using the extends keywork
 -used for increasing the reusability of the code 
 
+types of inheritance:
+1. single: b inherits from a
+2. multilevel: c inherits from b which inherits from a which inherits from o
+3. hierarchial: 
+4. multiple: c inherits from both a and b (not allowed in java)
 
 
 
