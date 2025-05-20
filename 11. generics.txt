@@ -3,4 +3,11 @@ generic classes:
 type parameter in them
 -we pass this parameter at the time of class instantiation 
 -class className<T>{} where T is the type placeholder used here 
--
+-benefits:
+    - type safety
+    - code reusability
+    - elimination of type casting 
+-bounded type parameters: we can bound the parameter for using only some values when the class 
+is instantiated 
+for e.g., class NumberBox<T extends Number> {} 
+in the example above, T can only take the types which are the subclasses of the Number class 
