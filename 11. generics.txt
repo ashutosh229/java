@@ -21,7 +21,11 @@ wildcards:
     - useful when the method can be implemented using methods in the Object class since 
     the type of the parameter is unknown
 -upper bounded wildcards:
-    - restricts the unknown type to be of some specific type by extending it to some class 
+    - restricts the unknown type to be of some specific type or subtype by extending it to some class 
     - the unknown type can then only accepts the types which are the subclasses of the parent class 
     - useful when we want to read data from a structure 
+-lower bounded wildcards:
+    - restricts the unknown type to be of some specific type or supertype by using the super keyword
+    - the unknown type can then only accepts the types which are the superclasses of the child class 
+    - useful when we want to write the data to a structure
     
