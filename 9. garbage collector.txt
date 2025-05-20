@@ -27,6 +27,8 @@ types of references:
     space is needed urgently, else not
     -this is a type of weak reference only
 
+we generally dont use weak and soft reference and use only strong reference 
+
 the garbage collector deletes all the objects and strings in the string pool, from the heap when they are not referenced by 
 any other variable in the stack 
 the garbage collector runs periodically and deletes the objects in the heap 
