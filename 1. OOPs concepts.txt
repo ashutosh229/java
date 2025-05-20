@@ -57,7 +57,7 @@ inheritance:
 types of inheritance:
 1. single: b inherits from a
 2. multilevel: c inherits from b which inherits from a which inherits from o
-3. hierarchial: 
+3. hierarchial: b inherits from a and also c inherits from a
 4. multiple: c inherits from both a and b (not allowed in java)
 
 
