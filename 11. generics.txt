@@ -11,3 +11,13 @@ type parameter in them
 is instantiated 
 for e.g., class NumberBox<T extends Number> {} 
 in the example above, T can only take the types which are the subclasses of the Number class 
+
+wildcards:
+-they are used in java generics
+-they are represented by the question mark (?)
+-denoting an unknown type 
+-unbounded wildcards:
+    - represents an unknown type 
+    - useful when the method can be implemented using methods in the Object class since 
+    the type of the parameter is unknown
+    
