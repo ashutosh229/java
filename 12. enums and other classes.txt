@@ -15,4 +15,11 @@ POJO class:
 -states are private in them 
 -methods are public in them
 -in short, it do not have any restrictions
--
+
+final class:
+-this class cannot be extended 
+-why to stop inheritance?
+    -security
+    -immutability 
+    -design decision 
+-if we attempt to extend a final class, it gives us compilation error
