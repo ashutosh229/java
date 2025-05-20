@@ -22,5 +22,10 @@ reference types have some parameters associated with them which can be accessed 
 -methods: these are the functions associated with the reference types
 the primitives are immutable but the reference types are mutable 
 
+NullPointerException:
+-Accessing methods or fields on a reference variable that is null will result in a NullPointerException
+-Always ensure the reference is not null before accessing its members.
 
-
+Shared References:
+-Assigning one reference variable to another copies the reference, not the actual object.
+-Changes made through one reference affect the other
