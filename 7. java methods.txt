@@ -11,3 +11,7 @@ final methods: these cannot be overriden by the subclasses and these methods ens
 abstract methods: methods which are declared without an implementation and must be implemented by subclasses 
 and they are defined in the abstract classes 
 
+varargs in java:
+-they have been introduced in java 5
+-they allow to pass zero or more arguments of the same type in the method 
+-only one varargs parameter is allowed per method.
