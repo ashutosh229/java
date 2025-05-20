@@ -11,5 +11,8 @@ POJO class:
 -it is a simple java class 
 -does not extend some prespecified classes given by the  EJB framework  
 -does not implement some prespecified interfaces given by the  EJB framework
+-does not require any annotations
+-states are private in them 
+-methods are public in them
 -in short, it do not have any restrictions
 -
