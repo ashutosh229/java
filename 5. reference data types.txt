@@ -9,3 +9,6 @@ interfaces
 arrays 
 strings (immutable in java)
 enums
+
+if not initialized explicitly, the reference variables are automatically initialized to null indicating that they do not
+point to any object right now
