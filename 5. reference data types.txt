@@ -1,0 +1,1 @@
+reference data types (also known as non-primitive types) are used to store references (memory addresses) to objects rather than the actual data itself. 
