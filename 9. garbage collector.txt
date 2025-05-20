@@ -67,6 +67,6 @@ it means that when the objects are deleted, the leftover objects are scatter her
 this algorithm brings them together and compacts them and presents them in a sequential arrangement and all the empty space 
 is pushed towards the other side
 
-versions of garbage collector:
+versions of garbage collector: (bmp)
 
 
