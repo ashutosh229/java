@@ -3,3 +3,9 @@ they are used to store references (memory addresses) to objects rather than the 
 This means that when you assign a reference type variable to another, both variables point to the same object in memory.
 modifying the object via one reference affects the other, since both refer to the same memory location.
 
+types of reference data types in java:
+classes
+interfaces 
+arrays 
+strings (immutable in java)
+enums
