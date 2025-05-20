@@ -43,7 +43,10 @@ one very concept is to make the stack and heap diagram from the code segment giv
 heap:
 the heap memory is divided into young generation and old generation
 young generation is again divided into 3 parts: eden, S0 and S1
-S0 and S1 together known as the survivor space 
+S0 and S1 together known as the survivor space
+one very important concept is the algorithm which we use for the storing of objects in the heap 
+difference between minor gc (in young gen space) and major gc (in old gen space)
+
 
 
 there is also one type of space called the non-heap which is also called the metaspace
