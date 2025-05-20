@@ -13,10 +13,12 @@ enums
 some importtant points to consider:
 if not initialized explicitly, the reference variables are automatically initialized to null indicating that they do not
 point to any object right now
-the objects whose addresses are stored by these reference variables are stored in the heap memory 
+the default value of the primitives depends on the type 
+the objects whose addresses are stored by these reference variables are stored in the heap memory whereas the primitives
+are stored in the stack memory
 when an object is not being referenced by any reference variable, it becomes eligible for garbage collection and freeing up memory 
 reference types have some parameters associated with them which can be accessed via the dot operator;
 -fields: these are the properties of the reference types 
--methods: these are the functions associated with the reference types 
+-methods: these are the functions associated with the reference types
 
 
