@@ -8,3 +8,6 @@ both the types of memory are stored in the RAM
 stack:
 stores the temporary variables and separate memory block for methods 
 store primitive data types 
+store the reference of the heap objects
+each thread has its own stack memory but they share a common heap memory
+
