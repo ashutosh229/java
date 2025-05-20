@@ -16,7 +16,16 @@ when the stack is full,then we get the java.lang.StackOverflowError
 
 types of references:
 -strong reference:
+    -created normally as we create the objects normally 
+    -when the gc runs, this reference indicates the gc to not free up the space since the reference is strong
 -weak reference:
+    -created using the WeakReference class in java 
+    -when the gc runs, this reference cannot do anything and the gc frees up the space and the reference is deleted 
+-soft reference:
+    -created using the SoftReference class in java 
+    -when the gc runs, this reference tells the gc that you can free up the space and delete the reference only if the
+    space is needed urgently, else not
+    -this is a type of weak reference only
 
 the garbage collector deletes all the objects and strings in the string pool, from the heap when they are not referenced by 
 any other variable in the stack 
