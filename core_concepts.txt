@@ -2,14 +2,19 @@ when we write some state in the class, we can access it via two ways:
 1. plain access: state 
 2. reference access: this.state
 
+interface is an entity in java which contains the functions without any proper implementation
+
 there are two things: extends and implements 
 extends: 
     -class and class (inheritance: single, multilevel, hierarchial)
     -interface and interface (inheritance: single, multilevel, hierarchial)
 implements: 
     -class and interface (solution of the diamond problem)
-
+    -if we implement an interface from a class, we have to override the functions of the interface and write their concrete 
+    implementation 
     
+
+
 
 
 
