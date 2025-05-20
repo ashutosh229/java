@@ -93,7 +93,7 @@ types of polymorphism:
     - during runtime, 
         - if the method will be called by the parent's object, implementation of the parent will work 
         - if the method will be called by the child's object, implementation of the child will work 
-    - since it is decided during the runtime, which one should work, it is the  runtime polymorphism
+    - since it is decided during the runtime, which one should work, it is the runtime polymorphism
 
 
 
