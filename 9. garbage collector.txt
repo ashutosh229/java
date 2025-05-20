@@ -11,3 +11,13 @@ store primitive data types
 store the reference of the heap objects
 each thread has its own stack memory but they share a common heap memory
 
+the garbage collector deletes all the objects and strings in the string pool, from the heap when they are not referenced by 
+any other variable in the stack 
+the garbage collector runs periodically and deletes the objects in the heap 
+the JVM is responsible for running the garbage collector 
+
+
+one very concept is to make the stack and heap diagram from the code segment given 
+
+
+
