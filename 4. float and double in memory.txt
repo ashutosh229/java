@@ -1,2 +1,3 @@
 there are formats for storing the floating point numbers in the memory
 the most common format which we follow is the IEEE754 format 
+in that format, we have a way of converting the floating point number to the memory representation and vice versa 
