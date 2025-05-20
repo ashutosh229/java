@@ -16,4 +16,4 @@ varargs in java:
 -they allow to pass zero or more arguments of the same type in the method 
 -only one varargs parameter is allowed per method
 -the varargs parameter should be the last parameter in the parameter's list of the function
--
+-inside the method, the varargs parameter is treated as an array
