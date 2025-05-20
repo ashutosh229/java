@@ -61,3 +61,12 @@ metaspace holds the class variables (static variables)
 it holds also the class metadata 
 it also holds the constants
 
+garbage collector algorithm with compaction:
+this is the mark and sweep algorithm with compaction
+it means that when the objects are deleted, the leftover objects are scatter here are there and space is present between them 
+this algorithm brings them together and compacts them and presents them in a sequential arrangement and all the empty space 
+is pushed towards the other side
+
+versions of garbage collector:
+
+
