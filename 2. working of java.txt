@@ -60,7 +60,9 @@ How to write a java program?
 2. there will be only one public class in a file 
 3. there can be states, constructors, methods, nested classes in a class 
 4. main() method is the starting point of the program, when the bytecode is generated, the JVM executes the bytecode starting from the main() method in the bytecode itself 
-5. 
+
+why only 1 public class in one java file?
+it all is needed because JVM is need to run the main method 
 
 
 
