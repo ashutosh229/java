@@ -67,6 +67,15 @@ the child class wont be understanding which function to use in its own implement
 solution of the diamond problem:
 the multiple inheritance in java cannot be implemented using the extends keyword 
 it can be implemented using the interface keyword
+we write the interfaces a and b
+implements the a and b using class c 
+write the implementation of the functions in the interface a and b in the class c 
+use the implemented functions of class c 
+therefore by this, we are able to use the functions of both a and b in the class c 
+the issue is solved because we have a single implementation in the child class and not multiple implementations in both the parent classes 
+therefore we are able to implement the multiple inheritance 
+
+
 
 
 
