@@ -1,0 +1,18 @@
+concrete class: a class that provides implementations for all its methods and can be instantiated to create objects 
+abstract class: cannot be instantiated on its own and can contain the abstract methods which are to be implemented by the subclass 
+nested:
+- class which is defined inside a class
+    - static:
+        -does not have the access to the instance variables and methods of the outer class but have the one for the class variables and methods 
+        -these classes can be instantiated without the object of the outer class 
+        -using the dot operator i.e. outer.nested nester = new outer.nested()
+    - non-static:
+        -also called the inner classes 
+        -there are 3 types defined here:
+            - local: 
+                - defined within a method 
+                - accessible only within the method 
+            - anonymous:
+                - unnamed class 
+                - defined and instantiated in a single expression
+                - 
