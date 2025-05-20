@@ -14,7 +14,11 @@ each thread has its own stack memory but they share a common heap memory
 the garbage collector deletes all the objects and strings in the string pool, from the heap when they are not referenced by 
 any other variable in the stack 
 the garbage collector runs periodically and deletes the objects in the heap 
-the JVM is responsible for running the garbage collector 
+the JVM is responsible for running the garbage collector
+we can explicitly run the garbage collector using the system.gc() command in the application code 
+even if we use the above command, there is no guarantee that the garbage collector will be ran and it all 
+depends on the JVM 
+ 
 
 
 one very concept is to make the stack and heap diagram from the code segment given 
