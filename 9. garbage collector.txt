@@ -38,8 +38,13 @@ even if we use the above command, there is no guarantee that the garbage collect
 depends on the JVM 
 therefore it is called automatic memory management 
 
-
 one very concept is to make the stack and heap diagram from the code segment given 
 
+heap:
+the heap memory is divided into young generation and old generation
+young generation is again divided into 3 parts: eden, S0 and S1
+S0 and S1 together known as the survivor space 
 
+
+there is also one type of space called the non-heap which is also called the metaspace
 
