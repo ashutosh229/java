@@ -37,3 +37,7 @@ PECS principle:
 -CS:
     - Consumer Super 
     - use <? super T> when the method needs to write(consume) data of type T
+
+difference between generics and wildcards: (bmp)
+
+
