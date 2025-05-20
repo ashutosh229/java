@@ -35,10 +35,13 @@ features of java:
     - it contains the programming language java, the compiler need to compile the code and the debugger 
     - it also contains the JRE alongside these things 
     - therefore the JDK is the ultimate thing which we need to have for writing, compiling and running the java code 
+    - therefore whenever you want to work with java, you should have JDK downloaded into your machine 
 
 platform independence of the components:
 JVM is platfrom dependent and therefore
 JRE is also platform dependent and therefore
 JDK is also platform dependent
+
+
 
 
