@@ -1,0 +1,5 @@
+features of java:
+-platform independent language 
+-follow the OOPs principles 
+-portability (WORA)
+-
