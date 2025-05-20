@@ -64,6 +64,10 @@ why the multiple inheritance is not allowed in java?
 it is because of the diamond problem which states that if both the parent classes will have the same function, then
 the child class wont be understanding which function to use in its own implementation
 
+solution of the diamond problem:
+the multiple inheritance in java cannot be implemented using the extends keyword 
+it can be implemented using the interface keyword
+
 
 
 
