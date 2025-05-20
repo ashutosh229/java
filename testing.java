@@ -6,3 +6,17 @@ public class testing {
         System.out.println("this is another change!");
     }
 }
+
+enum Season {
+    WINTER("Cold"), SPRING("Warm"), SUMMER("Hot"), FALL("Cool");
+
+    private String description;
+
+    Season(String description) {
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+}
