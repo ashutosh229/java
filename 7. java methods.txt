@@ -1,5 +1,13 @@
 methods are the codeblocks which helps us to perform some task by introducing code reusability and modularity 
 
+how a method is declared in java:
+access specifier 
+static/non-static
+return type 
+methodName 
+parameters 
+method Body 
+
 types of methods in java:
 system defined methods: defined in the built in libraries of java 
 user defined methods: defined by the user 
