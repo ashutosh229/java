@@ -27,6 +27,17 @@ class implements interface
 1 class can implement multiple interfaces 
 1 interface can be implemented by multiple classes
 
+private:
+cannot be inherited by the subclasses/interfaces 
+
+static:
+static entities can be accessed by static or non-static  
+non-static entities can be accessed by non-static but non static 
+
+    
+
+
+
 
 
 

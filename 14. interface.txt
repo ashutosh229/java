@@ -50,7 +50,7 @@ and therefore causing the default and static methods to use those helper functio
 -private static methods:
     -accessible only in the class 
     -interface method 
-    -used by static methods(stati/interface) as well as default method(non-static/instance) 
+    -used by static methods(static/interface) as well as default method(non-static/instance) 
     -cannot be abstract 
     -not inherited by implementing classes or inheritances since they are private
     -serve as a helper function for the default methods as well as static methods in the interface
