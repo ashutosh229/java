@@ -51,5 +51,11 @@ constructor chaining:
 notation for calling the constructor but actually, we use only this keyword 
 -e.g., this(10,20) //calling the constructor which accepts two integers in its parameters list 
 
+FAQs:
+isko badd mein padhenge 
+
+
+ 
+
 
 
