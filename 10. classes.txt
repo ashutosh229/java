@@ -18,8 +18,8 @@ nested:
                 - unnamed class 
                 - defined and instantiated in a single expression
                 - used for implementing the abstract classes and interfaces on the fly
-            - member:
-                - non static class 
+            - member: 
+                - this is the exact opposite for the nested static class 
                 - defined within another class 
                 - it has the access to the members of the outer class 
                 - while accessing this inner class, we need to create the object of the outer class 
@@ -28,5 +28,7 @@ nested:
 Object:
 -it is the root class of all classes
 -all the other classes implicitly inherit from this class 
--this class has several methods that are common to all the objects in java 
+-this class has several methods that are common to all the objects in java
+
+
 

@@ -1,0 +1,38 @@
+interface:
+-non-primitive type or reference type 
+-similar to a class
+-can contain:
+    -states:
+        - constant (public static final)
+    -methods:
+        - default methods (with proper implementation)
+        - abstract methods (without proper implementation)
+        - static methods
+-cannot contain constructors since they cannot be instantiated directly
+
+features:
+1. Abstraction: Interfaces provide a way to achieve abstraction in Java, allowing the definition of methods without specifying their implementation.
+2. Multiple Inheritance: Java does not support multiple inheritance with classes, but interfaces allow a class to implement multiple interfaces, enabling multiple inheritance of type.
+3. Loose Coupling: By programming to interfaces rather than concrete implementations, code becomes more flexible and easier to maintain.
+4. Default and Static Methods: Since Java 8, interfaces can have default methods with a body, and static methods. This allows interfaces to evolve without breaking existing implementations. 
+5. Functional Interfaces: An interface with a single abstract method is known as a functional interface and can be used with lambda expressions.
+
+difference between interface and abstract classes:(bmp, yeh tough hain)
+
+when to use interface?
+1. when you need multiple classes to implement a blueprint 
+2. when we need to implement multiple inheritance in java 
+3. to promote code loosening/decoupling/flexibility/testability 
+4. when working on APIs that rely on callback mechanims and event handling 
+
+marker interface:
+-marker interface is an interface with no methods or fields 
+-it is used to indicate to the JVM or frameworks that a class possesses a certain property when the class implements it 
+-for example, Serializable is a marker interface.
+
+default methods in interface:
+-if the primary purpose of an interface is to provide flexibility and code decoupling, then why default methods? 
+-they serve the purpose of adding new methods without breaking the existing functionalities 
+-classes implementing the interface can either use the default method or override it 
+
+

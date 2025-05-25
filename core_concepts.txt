@@ -12,6 +12,30 @@ implements:
     -class and interface (solution of the diamond problem)
     -if we implement an interface from a class, we have to override the functions of the interface and write their concrete 
     implementation 
+
+extends:
+    class extends class 
+    1 class cannot extend multiple classes
+    1 class can be extended by multiple classes
+
+    interface extends interface 
+    1 interface can extend multiple interfaces 
+    1 interface can be extended by multiple interfaces
+
+implements:
+class implements interface 
+1 class can implement multiple interfaces 
+1 interface can be implemented by multiple classes
+
+
+
+
+ek kam karo:
+short notes banao and usmein likho ki kaunsa keyword kahan lag sakta hain and kaise kam kar raha hain 
+questions practice karo 
+
+
+
     
 
 

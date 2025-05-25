@@ -1,8 +1,13 @@
 singleton class:
 -the objective of this class is to create one and only one object 
 -there are different ways of creating the singleton class:
-    -eager initialization:
-        -
+1. eager initialization:
+-   
+
+
+
+
+
     -lazy initialization
     -synchronization block 
     -double check lock 
