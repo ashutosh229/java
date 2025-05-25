@@ -1,0 +1,17 @@
+constructor:
+-special method of a class 
+-called when the object is created 
+-used to initialize the object of the class i.e. initialize the variables of the object
+
+rules of writing the constructor:
+-can have the access modifier 
+-cannot be static 
+-cannot be final 
+-cannot be abstract 
+-cannot be synchronized 
+-cannot have any return type
+-name should be same as the name of the class 
+-can have parameters
+-Can be overloaded (multiple constructors in the same class with different parameters)
+
+
