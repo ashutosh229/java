@@ -14,4 +14,42 @@ rules of writing the constructor:
 -can have parameters
 -Can be overloaded (multiple constructors in the same class with different parameters)
 
+types of constructors in java:
+1. default:
+-automatically by default there provided by java if we dont define any constructor in java 
+-has no parameters 
+-since it has no parameters, it initializes the instance variables(non static) to the default variables 
+
+2. no arguments constructor:
+-defined by the programmer 
+-no arguments are present
+-instance is initialized by the default variables values 
+-since its the custom defined, we can code any custom logic in it 
+
+3. parameterized constructor:
+-defined by the programmer 
+-accepts some parameters
+-initializes the instance variables with the parameters injected into the constructor
+
+4. private constructor:
+-having the access modifier as private 
+-since the access modifier is private, the constructor cannot be accessed outside of the class, and therefore, no object 
+can be created outside of the class, and therefore, this prevents the creation of the object from outside of the class 
+-since the access modifier is private, we can use the constructor inside its own class only and therefore can create the 
+object there only and nowhere else
+-used in singleton design pattern where a single object creation is permitted
+
+constructor overloading:
+-having multiple constructors overloaded into the same class 
+-since the overloadeding is done by differencing in the parameter list, the parameter list for all the constructors 
+should be different 
+-this is done for creating generality in the application code, depending on the inputs the user provide to the application 
+
+constructor chaining:
+-when one constructor calls the other constructor
+-in the class, for accesing any method, we use the this.methodName notation and therefore should use the this.constructorName 
+notation for calling the constructor but actually, we use only this keyword 
+-e.g., this(10,20) //calling the constructor which accepts two integers in its parameters list 
+
+
 
