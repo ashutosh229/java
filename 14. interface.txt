@@ -33,6 +33,26 @@ marker interface:
 default methods in interface:
 -if the primary purpose of an interface is to provide flexibility and code decoupling, then why default methods? 
 -they serve the purpose of adding new methods without breaking the existing functionalities 
--classes implementing the interface can either use the default method or override it 
+-classes implementing the interface can either use the default method or override it
+
+java9 features for interfaces:
+-in java8, we had the  default methods and static methods but in java9, new features were added 
+-private (used by the default methods) and private static methods 
+-these methods played a very important role as they lead to encapsulation of helper functions inside the class itself 
+and therefore causing the default and static methods to use those helper functions and reduce code duplication 
+-private methods:
+    -accessible only in the class 
+    -instance method 
+    -used by only default methods, which are non-static/instance 
+    -cannot be abstract 
+    -not inherited by implementing classes or inheritances since they are private
+    -serve as a helper function for the default methods in the interface 
+-private static methods:
+    -accessible only in the class 
+    -interface method 
+    -used by static methods(stati/interface) as well as default method(non-static/instance) 
+    -cannot be abstract 
+    -not inherited by implementing classes or inheritances since they are private
+    -serve as a helper function for the default methods as well as static methods in the interface
 
 

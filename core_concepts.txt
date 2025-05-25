@@ -32,6 +32,7 @@ class implements interface
 
 ek kam karo:
 short notes banao and usmein likho ki kaunsa keyword kahan lag sakta hain and kaise kam kar raha hain 
+mixing of keywords ka socho
 questions practice karo 
 
 
