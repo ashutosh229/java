@@ -35,8 +35,8 @@ static entities can be accessed by static or non-static
 non-static entities can be accessed by non-static but non static 
 
 compile-time v/s run-time:
-during compile time, the control is with the programmer 
-during run time, the control is with the machine 
+during compile time, the control is with the programmer and compilation of code is done by compiler and output is compiled code  
+during run time, the control is with the machine and running is done by the JVM and the output is the bytecode 
 
 why fields and methods are not generic?
 because their types are injected by the generic type present in their generic class and therefore they dont need to be generic 

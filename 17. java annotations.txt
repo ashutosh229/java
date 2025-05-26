@@ -1,0 +1,10 @@
+annotations:
+-feature in java
+-introduced in java 5
+-introduced to reduce the need of the XML files in which the configurations or the metadata of the code used to be witten
+-helps us to add metadata to the java code
+-by metadata, we mean that it provides us the information about the java code but is not the part of the program
+-since they are not the part of the java code, they have no direct effect on the operation of the code but can be used by the 
+compiler or at runtime to perform certain actions
+-this metadata is used by the compilers, development tools, or at runtime to influence the program 
+-
