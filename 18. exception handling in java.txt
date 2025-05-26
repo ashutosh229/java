@@ -125,7 +125,9 @@ finally keyword:
 -we can add only one finally block 
 -finally will always get executed no matter, we return from the try block or the catch block 
 -mostly used for closing the objects, logging purposes, etc. 
--when there is some JVM related issue like, 
+-when there is some JVM related issue like memory gets over, system shuts down, process is killed, etc. then the finally 
+block do not get executed
+
 
 
 
