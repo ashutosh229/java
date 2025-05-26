@@ -8,4 +8,36 @@ methods in the interface, it will give us compilation error
 private methods, private static methods, object class methods 
 
 lambda expressions:
--
+-it is a way of implementing the functional interface 
+-there are other ways also which we have seen in the past (using implements keyword, using the anonymous class) and 
+this is the 3rd way of doing so 
+-interfaceName object = (parameters)->{
+    //custom logic of implementing the abstract method
+}
+
+types of functional interface:
+-the classification is made on the basis of what the abstract method is accepting and what it is returning
+1. consumer:
+-accepting: single parameter of type T
+-returning: nothing (just void)
+-void accept (T t);
+-present in java.util.function
+
+2. supplier:
+-accepting: nothing (parameter list is empty) 
+-returning: returns an output of some type T
+-T supply ();
+-present in java.util.function
+
+3. function:
+-accepting: single parameter of type T
+-returning: returns an output of type R
+- R apply(T t);
+-present in java.util.function
+
+4. predicate:
+-accepting: single parameter of type T
+-returning: returns an output of type boolean
+- boolean test(T t);
+-present in java.util.function 
+
