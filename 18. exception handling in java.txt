@@ -108,13 +108,24 @@ the origination point and then use it there
 -there will be a single try block throwing all the type of exceptions
 -for multiple exception throws, we have to use multiple catch blocks, each one of them, handling a particular type of exception 
 -we cannot write a catch block for catching the type of exception, which is not thrown by the try block
-
+-we can catch all the type of exceptions into a single catch block using the Exception class, which is the superclass 
+for all the exception classes 
+-we cannot first catch using the Exception class and then some other catch block because the first one will catch all the exceptions 
+-we can use the pipe operator (|)(or) to provide multiple type of exception arguments into a single catch block
+-just assume, the try catch block like thrower-catcher mechanism
 
 throw keyword:
 -used to throw exceptions programmatically in the code 
 -we throw the exception object using the throw keyword 
 -throw exceptionObject or throw new ExceptionClass()
--
+
+finally keyword:
+-the finally block is used at the end of the try catch block 
+-either we can use the try-catch-finally or try-finally 
+-we can add only one finally block 
+-finally will always get executed no matter, we return from the try block or the catch block 
+-mostly used for closing the objects, logging purposes, etc. 
+-when there is some JVM related issue like, 
 
 
 
