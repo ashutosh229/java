@@ -19,6 +19,20 @@ we can also create new instances of the objects by invoking the constructor, eve
 we can read and write to feilds, including private fields also, by overriding the access checks 
 in short, reflection provides us the ability to tackle the accessibility 
 
+considerations and best practices: (bmp) 
+
+ways of getting the class/interface object:
+Class<?> clazz = Myclass.class (way 1)
+
+Myclass obj = new Myclass()
+Class<?> clazz = obj.getClass() (way 2)
+
+Class<?> clazz = Class.forName("") (way 3)
+
+
+
+
+
 
 
 
