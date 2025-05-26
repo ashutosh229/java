@@ -136,7 +136,9 @@ exceptions in the application code itself
 creating custom exceptions:
 -we can create custom exception classes also 
 -we have to extend the custom exception class to some exception class and it will then fit in the heirarchy according to that 
--
+-we have to handle them just like the compile time exceptions 
+
+
 
 
 
