@@ -49,8 +49,6 @@ exception:
 -compile time exception:
     -occurs during the compilation
     -caught by the compiler
-    -types:
-        -
 -runtime exception:
     -occurs during the runtime
     -caught by the JVM
@@ -90,13 +88,33 @@ properly
     -does handle the exception, then the handling will occur and there will be no breakdown of the application
 -the caller now handles the exception by using the throws keyword in it as well 
 -but by doing so, the compiler dont get anyone who can handle the exception and gets only the ones which can throws the exception 
-and therefore, the program will end abruptly 
+and therefore, the program will end abruptly
+-we can use multiple exceptions with the throws keyword
 
 2. using "try/catch" block:
 -try block contains the code which can get the exception 
 -catch block contains the code which accepts the exception object after the exception is occured and then handles it 
+-inside the catch block, we can write any custom logic to handle the exception like logging or responding or anything like that 
+-it is not necessary that we handle the exception at the original origination point itself, we can also use throws, display 
+the origination point and then use it there 
+-after getting the exception in the try block:
+    -if the catch block is present:
+        -if the exception type passed as an argument in the catch matches with the exception type occured:
+            -exception is handled
+        -if the match do not occur
+            -no exception handling and compilation error
+    -if the catch block is not present:
+        -no exception is handled and compilation error
+-there will be a single try block throwing all the type of exceptions
+-for multiple exception throws, we have to use multiple catch blocks, each one of them, handling a particular type of exception 
+-we cannot write a catch block for catching the type of exception, which is not thrown by the try block
 
 
+throw keyword:
+-used to throw exceptions programmatically in the code 
+-we throw the exception object using the throw keyword 
+-throw exceptionObject or throw new ExceptionClass()
+-
 
 
 
