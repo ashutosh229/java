@@ -1,0 +1,11 @@
+functional interface:
+-an interface containing a single abstract method
+-SAM interface (Single Abstract Method)
+-@FunctionalInterface annotation is used to define a SAM interface but its optional 
+-If we write the above annotation, then the interface is defined as a SAM and then if we forcefully, try to add more abstract
+methods in the interface, it will give us compilation error 
+-since only 1 abstract method is allowed, we cannot have more abstract methods, but we can have default methods, static methods, 
+private methods, private static methods, object class methods 
+
+lambda expressions:
+-
