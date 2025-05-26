@@ -14,6 +14,14 @@ classes present in the reflection API:
 -Constructor<T>: provides the object for the constructors and then we can extract every information about the constructor of the class 
 -Modifier: provides us with static methods and constants, to decode classes and member class modifiers 
 
+we can invoke the methods during runtime, regardless of the access specifiers, using the reflections 
+we can also create new instances of the objects by invoking the constructor, even if they are private  
+we can read and write to feilds, including private fields also, by overriding the access checks 
+in short, reflection provides us the ability to tackle the accessibility 
+
+
+
+
 
 
 
