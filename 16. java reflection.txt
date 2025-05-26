@@ -29,6 +29,11 @@ Class<?> clazz = obj.getClass() (way 2)
 
 Class<?> clazz = Class.forName("") (way 3)
 
+once we get the class object, we can do multiple things with it, using other methods available in the reflect package  
+and therefore, we can also do the same for all the other classes like modifiers, fields and all 
+
+
+
 
 
 
