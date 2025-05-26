@@ -128,6 +128,14 @@ finally keyword:
 -when there is some JVM related issue like memory gets over, system shuts down, process is killed, etc. then the finally 
 block do not get executed
 
+which exceptions to handle?
+-for runtime, we are not forced to handle exceptions by the compiler but its a good practice if we handle those 
+exceptions in the application code itself 
+-for compile time, we have to handle the exception otherwise the code wont be compiled
+
+
+
+
 
 
 
