@@ -34,7 +34,18 @@ static:
 static entities can be accessed by static or non-static  
 non-static entities can be accessed by non-static but non static 
 
-    
+compile-time v/s run-time:
+during compile time, the control is with the programmer 
+during run time, the control is with the machine 
+
+why fields and methods are not generic?
+because their types are injected by the generic type present in their generic class and therefore they dont need to be generic 
+
+why constructors are generic? 
+because while creating the object, the type injected into the class should be provided and the object creation occurs 
+via the constructor which means that the provisioning of the type can happen via the constructor itself and therefore, it 
+should be generic too, just like the class 
+
 
 
 

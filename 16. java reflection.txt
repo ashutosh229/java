@@ -1,0 +1,26 @@
+reflection:
+-feature of java 
+-helps to inspect and manipulate the runtime behaviour of the applications running in the JVM 
+-because it helps us to get the details about the multiple entities of a java program even if we dont know their name or any
+other identifier 
+-it enables the examination and modification of classes, interfaces, fields, and methods at runtime, even if their 
+names are not known until runtime
+-basically, har chij jan saktein hain during runtime
+
+classes present in the reflection API:
+-Class<T>: provides us the class and interface object for the classes and interfaces and then we can extract every information about that class or interface 
+-Field: provides the object for the field and then we can extract every information about the field of the class or interface
+-Method: provides the object for the method and then we can extract every information about the method of the class or interface 
+-Constructor<T>: provides the object for the constructors and then we can extract every information about the constructor of the class 
+-Modifier: provides us with static methods and constants, to decode classes and member class modifiers 
+
+
+
+
+
+
+
+
+
+
+
