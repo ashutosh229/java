@@ -2,9 +2,28 @@ annotations:
 -feature in java
 -introduced in java 5
 -introduced to reduce the need of the XML files in which the configurations or the metadata of the code used to be witten
--helps us to add metadata to the java code
+-helps us to add metadata to the java code itself, without any other XML files
 -by metadata, we mean that it provides us the information about the java code but is not the part of the program
 -since they are not the part of the java code, they have no direct effect on the operation of the code but can be used by the 
 compiler or at runtime to perform certain actions
 -this metadata is used by the compilers, development tools, or at runtime to influence the program 
--
+
+type of annotations:
+1. built in:
+-these are the already defined annotations in java 
+-predefined annotations
+-there are 2 types:
+    1.1. meta annotations: 
+        - used on the other annotations
+        - provides metadata or information about the other annotations on which they are used  
+        - these are majorly used to define the  behaviour and applicability of custom annotations
+    1.2. code annotations:
+        - used directly on the java code 
+        - provides the metadata about the java code 
+        - tells the compiler, JVM, framework, other tools,  etc. to do something with the piece of code when encountered with it
+
+2. custom annotations:
+-created using the @interface keyword 
+-just written like a class 
+-its objects can also be created just like a class and the object can also access the states and methods 
+
