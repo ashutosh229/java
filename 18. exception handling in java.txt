@@ -78,6 +78,7 @@ why handling of the throwable class subclasses is important?
     -if the runtime exception is not handled, the compiled code will not run 
 
 exception handling:
+1. using "throws" keyword:
 -when we encounter the compile time exception, we get a warning in the code via a red line at the point where the 
 exception is occuring 
 -if we write the throws keyword for the method at which the exception is occuring, the throws keyword makes sure to inform 
@@ -86,7 +87,16 @@ properly
 -if the caller now:
     -does not handle the exception, then the exception will be shown in the caller, as the origination point and the 
     warning will be shown there 
-    -does handle the exception, then the handling will occur and there will be no breakdown of the application 
+    -does handle the exception, then the handling will occur and there will be no breakdown of the application
+-the caller now handles the exception by using the throws keyword in it as well 
+-but by doing so, the compiler dont get anyone who can handle the exception and gets only the ones which can throws the exception 
+and therefore, the program will end abruptly 
+
+2. using "try/catch" block:
+-try block contains the code which can get the exception 
+-catch block contains the code which accepts the exception object after the exception is occured and then handles it 
+
+
 
 
 
