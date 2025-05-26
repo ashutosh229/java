@@ -1,0 +1,28 @@
+operators:
+1. arithmetic:
+- +, -, *, /, %
+
+2. assignment:
+- count op= value means "count = count op value" where op = {+,-,*,/,%}
+
+3. unary:
+- +, -, ++, --, ! 
+
+4. comparison or relational:
+- >,<,>=,<=,==,!=
+
+5. logical:
+- &&, ||, !
+
+6. bitwise:
+-&, |, ~ (logical bitwise)
+-^ (XOR)
+-<<, >>, (left and right shift) 
+-<<<,>>> (unsigned letf and right shift)
+
+7. ternary:
+- ans = condition?value1:value2 
+
+8. instance of:
+-checks whether the object is the instance of a specific class or not 
+
