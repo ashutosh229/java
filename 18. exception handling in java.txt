@@ -1,0 +1,101 @@
+exception:
+-event which occurs during the execution of a program 
+-disrupts the normal flow of the program
+-creates the exception object which contains the information about the exception like type of exception occured, message, 
+stack trace, etc. 
+-runtime system uses the exception object and find the class which can handle it, by iteratively asking all the methods 
+which were called if they can handle the exception or not 
+-if there is found no class which can handle the exception, the runtime system terminates the program and prints the stack 
+trace
+-stack trace is simply the tracing of the exception from the origination point of the exception to the point from where the 
+program has taken place i.e. the main method, of the public class 
+
+the difference between error and exception is that error is not controllable and you as a programmer cannot control it but 
+the exception can be controlled and you should control it 
+
+exception heirarchy:
+-we know that in java, everything is class and objects 
+-the parent class of all the classes in java is the Object class 
+-Object
+    -Throwable
+        -Error
+            -OutofMemoryError 
+            -StackOverflowError
+        -Exception
+            -Checked/Compile-time exception
+                -ClassNotFoundException 
+                -InterruptedException 
+                -IOException 
+                    -FileNotFoundException 
+                    -EOFException 
+                    -SocketException 
+                -SQLException
+            -Un-Checked/Runtime exception
+                -ClassCastException 
+                -ArithmeticException
+                -IndexOutOfBoundException
+                    -ArrayIndexOutOfBoundException 
+                    -StringIndexOutOfBoundException 
+                -NullPointerException 
+                -IllegalArgumentException or NumberFormatException
+
+errors:
+-error occurs due to the JVM's issues of not able to handle the memory properly 
+-when there is no memory left in the heap, it throws the OutofMemoryError
+-when there is no memory left in the stack, it throws the StackOverflowError
+-error is a type of runtime exception
+
+exception:
+-compile time exception:
+    -occurs during the compilation
+    -caught by the compiler
+    -types:
+        -
+-runtime exception:
+    -occurs during the runtime
+    -caught by the JVM
+    -types:
+        -ClassCastException:
+            -occurs when one class cannot be casted into other when we run the program 
+        -ArithmeticException:
+            -occurs due to the arithmetic discrepancies in the mathematical expressions
+        -IndexOutOfBoundException:
+            -occurs when we try to access some index which is not present 
+            -ArrayIndexOutOfBoundException: occurs in the array index
+            -StringIndexOutOfBoundException: occurs in the string index  
+        -NullPointerException:
+            -when we try to access something for the null valued reference type variable
+        -IllegalArgumentException:
+            -also called the NumberFormatException
+            -occurs when we try to force some argument into a function for which the function is not made 
+            -e.g., parsing a string using the parseInt function 
+
+why handling of the throwable class subclasses is important?
+-we cannot handle/control the error 
+-we can handle/control the exception
+-handling the exception is important because:
+    -if the compile time exception is not handled, the code will not compile
+    -if the runtime exception is not handled, the compiled code will not run 
+
+exception handling:
+-when we encounter the compile time exception, we get a warning in the code via a red line at the point where the 
+exception is occuring 
+-if we write the throws keyword for the method at which the exception is occuring, the throws keyword makes sure to inform 
+the compiler that this method might (or might not) throw the exception and therefore, make sure that the caller handles it 
+properly 
+-if the caller now:
+    -does not handle the exception, then the exception will be shown in the caller, as the origination point and the 
+    warning will be shown there 
+    -does handle the exception, then the handling will occur and there will be no breakdown of the application 
+
+
+
+
+
+
+ 
+
+
+
+
+

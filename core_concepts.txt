@@ -35,8 +35,22 @@ static entities can be accessed by static or non-static
 non-static entities can be accessed by non-static but non static 
 
 compile-time v/s run-time:
-during compile time, the control is with the programmer and compilation of code is done by compiler and output is compiled code  
-during run time, the control is with the machine and running is done by the JVM and the output is the bytecode 
+during compile time:
+    -the control is with the programmer com 
+    -compilation of code is done by compiler 
+    -output is compiled code
+    -compiler checks for the grammar of the language or the syntax  
+during run time:
+    -the control is with the machine 
+    -running is done by the JVM 
+    -output is the bytecode 
+    -JVM checks whether the program is able to interact properly with the hardware or not
+
+null v/s undefined:
+null is an actual value, which symbolizes nothing
+undefined means that entity is not even defined in the application code 
+e.g., suppose we define some string but dont initialize it, then we will get its value as null on access, but if we dont 
+define some string variable in the code and still try to access it, then it gives us the undefined
 
 why fields and methods are not generic?
 because their types are injected by the generic type present in their generic class and therefore they dont need to be generic 
