@@ -133,6 +133,11 @@ which exceptions to handle?
 exceptions in the application code itself 
 -for compile time, we have to handle the exception otherwise the code wont be compiled
 
+creating custom exceptions:
+-we can create custom exception classes also 
+-we have to extend the custom exception class to some exception class and it will then fit in the heirarchy according to that 
+-
+
 
 
 
