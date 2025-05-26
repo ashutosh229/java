@@ -41,3 +41,22 @@ types of functional interface:
 - boolean test(T t);
 -present in java.util.function 
 
+handling the scenario when the functional interface is extending from another interface:
+case 1: parent interface is non-functional
+case 1.1: parent interface contains abstract method
+    -the abstract method in the parent interface will get inherited
+    -therefore, the functional interface will now contain multiple abstract methods 
+    -therefore, compilation error will occur
+case 1.2: parent interface do not contain any abstract method
+    -after the inheritance also, only one abstract method remains in the functional interface
+    -therefore, it is still a functional interface and therefore no compilation error will occur
+
+case 2: parent interface is functional
+case 2.1: when both the interfaces have different abstract methods:
+    -after the inheritance, the child will have the different abstract methods 
+    -therefore, there will be multiple abstract methods 
+    -therefore, it wont be e functional interface anymore and therefore compilation error will occur
+case 2.2: when both the interface will have the same abstract method:
+    -after the inheritance, the child will have a single abstract method 
+    -still a functional interface and therefore no compilation error occurs
+
