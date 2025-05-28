@@ -5,6 +5,24 @@ java collections framework:
 -this framework provide us the entire architecture to manage these group of objects i.e. ability to add, delete, update, search,
 sort, etc.
 -before JCF, there was no such proper framework and therefore we were supposed to remember the methods for each data 
-structure and it was difficult to do so 
+structure and it was difficult to do so
+-JCF solved this problem as it provided a common interface for all the collections 
+
+heirarchy of java collections framework:
+-see it from the net 
+
+iterable:
+-provides the way of iterating the collection
+-ways of iterating any collection:
+1. using the iterator method 
+2. using the forEach method 
+3. using the conventional for(int val: values) loop
+
+collection:
+-provides us the methods for working on a group of objects  
+-
+
+
+
 
 
