@@ -1,5 +1,6 @@
 before going into the internal design of hashmap, we should be familiar with some terms:
-1. load factor
+1. load factor:
+-
 
 3. rehashing 
 4. performance
@@ -26,5 +27,9 @@ and this entire array is only internally working as a hashmap
     -this key-value pair is put in that index of the array which has been computed in the previous step
     -if next time, some other insertion happens on the same index, then the next pointer is used to point to the next node 
     in the same index of the array 
-
-    
+-when we try to get the value from the key using the get method:
+    -firstly, the hash of the key is computed 
+    -then the hash is modulated with size of the map, to find the index 
+    -then the index's list is iterated to find the node containing the key 
+    -when the key is got, we return the value 
+    -when the key is not got, we return false/-1/others 
