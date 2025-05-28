@@ -24,7 +24,18 @@ collection:
 -there are methods for streaming and stream processing 
 -there are other methods which are common for all the collections in the JCF heirarchy
 
+difference between collection and collections:
+-collection:
+    -part of the JCF 
+    -it is an interface 
+    -other data structures implements it 
+    -contains a lot of methods for all the data structures 
+-collections:
+    -utility class 
+    -provides static methods which are used to operate on collections 
+    -like swapping, sorting, searching, etc. 
 
+    
 
 
 
