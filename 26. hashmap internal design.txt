@@ -1,11 +1,7 @@
 before going into the internal design of hashmap, we should be familiar with some terms:
-1. load factor:
--
-
-3. rehashing 
 4. performance
 
-2. entry interface
+entry interface
 -it is a subinterface inside the map interface i.e. we access it using map.entry 
 -this subinterface contains key of type K and value of type V 
 -since this is an interface and we cannot directly make  an object of it, we implement it and make a class 
@@ -40,4 +36,25 @@ hashCode() and equals():(why not to compare hashcodes and compare the objects)
 
 why the hashmap can perform insertion/deletion/finding/etc. in O(1) time, on an average ? 
 -if we see the internal implementation, then the worst case time complexity is O(N) where N is the size of hashmap 
--
+-but then how can it perform on an average, the operations in constant time complexity 
+-because everytime, the number of key-value pairs in the hashmap exceeds a threshold, the entire hashmap doubles it size, 
+rehashing occurs, and the data is redistributed and now mostly each node gets inserted into a single index, and now we can fetch 
+the details in constant, and again when the threshold crosses, the entire process repeats and this goes on 
+-due to the above mentioned process of rehashing, there is nearly constant performance 
+-load factor: a constant for the hashmap which determines the threshold for rehashing 
+-threshold: load-factor * size of the hash-map 
+-rehashing: when the (threshold+1)th key-value pair is inserted into the map, the entire map doubles its size (16-32-64-128-...), and 
+for each of the already inserted keys, the hash is again computed and the index is then again computed and then the node is 
+inserted on the index 
+-does the load factor and rehashing mechanism ensures that there will be least number of collisions?
+no, because there can be a possibility that after the rehashing, most of the nodes collide at the same index and therefore, 
+this is not the guarantee that there will be no collisions 
+-then how to ensure least collisions? 
+the solution is treify threshold 
+-when the number of nodes on a index exceeds than that of the treify threshold upon insertion, then the linked list of 
+the index is converted into a tree (balanced binary search tree)(RBT)(AVL) and therefore the time complexity becomes log(N)
+
+time complexity analysis for hashmap:
+-average: O(1) (due to rehashing)
+-worst: O(n), for linked list (before treify threshold)
+        O(log n), for tree (after treify threshold)

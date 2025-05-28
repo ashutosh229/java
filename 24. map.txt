@@ -11,7 +11,7 @@ properties of map:
     -hashmap: do not maintain the order 
     -linkedhashmap: maintains the insertion order 
     -treemap:sorts the data internally (order maintain)
-    -hashtable: synchronized version of hashmap
+    -hashtable: synchronized version of hashmap (it is thread safe)
 -put method:
     -if the key is not in the map, then it inserts the key-value pair into the map 
     -if the key is present in the map, then it overrides the value of the key 
