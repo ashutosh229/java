@@ -30,6 +30,14 @@ and this entire array is only internally working as a hashmap
 -when we try to get the value from the key using the get method:
     -firstly, the hash of the key is computed 
     -then the hash is modulated with size of the map, to find the index 
-    -then the index's list is iterated to find the node containing the key 
+    -then the index's list is iterated to find the node containing the key by comparing the key and not the hash value (why?,later) 
     -when the key is got, we return the value 
-    -when the key is not got, we return false/-1/others 
+    -when the key is not got, we return false/-1/others
+
+hashCode() and equals():(why not to compare hashcodes and compare the objects)
+-if two objects are equal, then their hash codes will be definitely equal 
+-if the hash codes of the objects will be equal, then we cannot say whether the objects will be equal or not
+
+why the hashmap can perform insertion/deletion/finding/etc. in O(1) time, on an average ? 
+-if we see the internal implementation, then the worst case time complexity is O(N) where N is the size of hashmap 
+-
