@@ -20,7 +20,8 @@ iterable:
 
 collection:
 -provides us the methods for working on a group of objects  
--
+-before the introduction of iterable in java 1.5, the method used to iterate the object was iterator() present in collection 
+
 
 
 
