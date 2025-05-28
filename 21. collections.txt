@@ -1,0 +1,10 @@
+java collections framework:
+-added in java version 1.2 
+-collections is nothing but a group of objects just like array(group of entities), strings (group of characters)
+-present in java.util package 
+-this framework provide us the entire architecture to manage these group of objects i.e. ability to add, delete, update, search,
+sort, etc.
+-before JCF, there was no such proper framework and therefore we were supposed to remember the methods for each data 
+structure and it was difficult to do so 
+
+
