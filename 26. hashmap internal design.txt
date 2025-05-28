@@ -1,0 +1,30 @@
+before going into the internal design of hashmap, we should be familiar with some terms:
+1. load factor
+
+3. rehashing 
+4. performance
+
+2. entry interface
+-it is a subinterface inside the map interface i.e. we access it using map.entry 
+-this subinterface contains key of type K and value of type V 
+-since this is an interface and we cannot directly make  an object of it, we implement it and make a class 
+called node, which also contains the key of type K and value of type V 
+-this node class is nothing but serves to make the node objects which forms the building blocks of map
+-when we say map/hashmap, we are talking about a collection of key-value pairs, actually in this, when we talk about 
+the internal design, the key-value pairs are the node class objects and the entire collection is an array of these objects 
+and this entire array is only internally working as a hashmap 
+-the node object contains 4 fields: hash, key, value, next:
+    -key represents key of the pair 
+    -value represents the value of the pair 
+    -hash represents the hash value of the key computed
+    -next represents the next key-value pair on the same index and it is a reference variable of type node 
+-when we create a hashmap, this array gets created with the initial and default size of 16 if we dont specify the size 
+-when we try to insert the key-value pair using the put method:
+    -the hash of the key is computed i.e. hash(key) where hash=hash function which is a hashing algorithm, which can be 
+    a standard hashing algorithm, or we would have wrote our own custom algorithm as well 
+    -the index is calculated by modulating the hash with n i.e. the size of the map (default value of n is 16)
+    -this key-value pair is put in that index of the array which has been computed in the previous step
+    -if next time, some other insertion happens on the same index, then the next pointer is used to point to the next node 
+    in the same index of the array 
+
+    

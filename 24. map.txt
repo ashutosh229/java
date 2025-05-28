@@ -1,0 +1,18 @@
+why collection cannot be used to extend the map? 
+-because collections is made for the data structures which operates on a single value and the map is a data structure 
+which has a pair i.e. key-value pair 
+-it cannot be made to extend since it contains key-value instead of only value 
+-its method and properties fails for map 
+
+properties of map:
+-contains the key value pairs 
+-cannot contain the duplicate keys 
+-implementations of map are:
+    -hashmap: do not maintain the order 
+    -linkedhashmap: maintains the insertion order 
+    -treemap:sorts the data internally (order maintain)
+    -hashtable: synchronized version of hashmap
+-put method:
+    -if the key is not in the map, then it inserts the key-value pair into the map 
+    -if the key is present in the map, then it overrides the value of the key 
+
