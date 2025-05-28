@@ -58,3 +58,9 @@ time complexity analysis for hashmap:
 -average: O(1) (due to rehashing)
 -worst: O(n), for linked list (before treify threshold)
         O(log n), for tree (after treify threshold)
+
+threading in hashmap:
+-threading is not for hashmap as it is not thread safe 
+-if we want to implement threading, then:
+    -use concurrent hashmap(thread safe hashmap)
+    -use hashtable (thread safe)
