@@ -1,0 +1,27 @@
+stream:
+-stream is a pipeline through which our collection elements passes through 
+-when the collection elements passes through the stream, it can undergo multiple operations like sorting, filtering, etc. 
+depending on the way we construct the pipeline 
+-useful when we deal with bulk processing (processing a lot of data)
+-useful when we have to perform parallel processing 
+
+components of stream:
+-we have a collection with us 
+-step1: create a stream, from the data source like array or collection or etc.
+-step2: intermediate operations:
+    -they are the operations performed on the stream
+    -there can be multiple intermediate operations
+    -they have some logic like filter, sort, map, distinct, etc. 
+    -the output is again a stream on which the operations can be performed again
+    -they are lazy in nature
+-step3: terminal operations:
+    -they are the operations which occurs at the end of the stream 
+    -there can be only one terminal operation 
+    -like collect, reduce, count, etc. 
+    -these operations produces the output of the stream 
+    -after the terminal operation, the stream gets closed and no further operations can be performed on it
+
+
+
+lazy nature of streams:
+-
