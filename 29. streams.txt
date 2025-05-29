@@ -44,6 +44,7 @@ sequence of stream operations:(very important concept)
 
 
 parallel stream:
+-helps to perform operation on the stream in a concurrent manner 
+-multi core CPU should be present so that each CPU can handle one task 
+-ParallelStream() method is used instead of the regular stream() method 
 -
-
-
