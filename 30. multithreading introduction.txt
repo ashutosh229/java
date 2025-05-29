@@ -22,10 +22,19 @@ counter, threads,  etc.
     -they share heap memory, data segment, code segment i.e. these components are common for all the threads
     -they do not share register, stack, counter i.e. every thread has its own for these resources
 
-
+manual allocation to heap memory:
 -we can also mention the size of the heap memory which should be instanciated to the JVM instance while creating the process 
 for it
 -we can set the min size of the heap allocated and also the max size of the heap allocated 
 -when some JVM instance is created for a new process, it gets the heap memory out of the total currently available heap memory 
 and if it asks for more, then the OutOfMemoryError will occur, denoting that the heap is full with no memory
--
+
+components of the JVM instance:
+-heap memory: contains the heap memory allocated to the JVM instance for the created process
+-code segment: 
+    -contains the compiled bytecode or the machine code which the CPU understands
+    -its read only, since we cannot change the machine code directly
+    -if we want to change the machine code, we have to change the bytecode and if we want to change the bytecode, we have tp 
+    change the source code and re-run it and then again a new process is created and the same things will happen
+    -all the threads within the same progress shares the same code segment 
+     
