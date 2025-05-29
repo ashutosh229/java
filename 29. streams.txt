@@ -48,4 +48,6 @@ parallel stream:
 -multi core CPU should be present so that each CPU can handle one task 
 -ParallelStream() method is used instead of the regular stream() method 
 -internally, it does the following:
-    -
+    -task splitting: uses the spliterator function to split the data into multiple chunks 
+    -task submission and parallel processing, using the Fork-Join technique (covered in multi processing)
+
