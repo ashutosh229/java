@@ -61,6 +61,22 @@ components of the JVM instance:
     -also called the program counter or PC 
     -each thread has its own counter 
     -it points to the instruction which is being executed right now in the stack 
-    -increments the counter after successfull execution of the instruction 
+    -increments the counter after successfull execution of the instruction
+
+entire flow of how multithreading works? (bmp)
+
+benefits of multithreading:
+-improved performance by task parallelism
+-responsiveness 
+-resource sharing 
+
+challenges of multithreading:
+-concurrency issues like deadlocks, data inconsistency, etc. 
+-synchronized overhead
+-testing and debugging is difficult because complex system 
+
+
+
+
     
 
