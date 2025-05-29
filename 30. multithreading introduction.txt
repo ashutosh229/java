@@ -1,0 +1,7 @@
+process and thread:
+-process is an instance of a program that is getting executed or is running 
+-when a program is running, it requires a lot of resources like memory, thread, etc. 
+-process requires a lot of resources in short 
+-OS allocates these resources to the process when the  process is created 
+-process has its own resources and no two processes shares their resources with each other 
+-
