@@ -19,9 +19,24 @@ components of stream:
     -there can be only one terminal operation 
     -like collect, reduce, count, etc. 
     -these operations produces the output of the stream 
-    -after the terminal operation, the stream gets closed and no further operations can be performed on it
+    -after the terminal operation, the stream gets closed and no further operations can be performed on 
 
+lazy nature of intermediate operations:
+-the lazy nature means that the intermediate operations wont take place until and unless we apply the terminal 
+operation on the stream
+   
+different ways of creating a stream:
+-using collection 
+-using arrays 
+-using static method "of" of "Stream" class 
+-using stream builder
+-using stream iterate
 
-
-lazy nature of streams:
+sequence of stream operations:
 -
+
+
+
+
+
+
