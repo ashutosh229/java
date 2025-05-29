@@ -3,5 +3,11 @@ process and thread:
 -when a program is running, it requires a lot of resources like memory, thread, etc. 
 -process requires a lot of resources in short 
 -OS allocates these resources to the process when the  process is created 
--process has its own resources and no two processes shares their resources with each other 
+-process has its own resources and no two processes shares their resources with each other
+-processes are therefore isolated
+-one process contains a lot of threads 
+-thread is known as a lightweight process 
+-smallest sequence of instructions which are executed by the CPU independently 
+-if a program contains 10 instructions, and a CPU can execute only 5 instructions independently, then there will be 2 threads 
+i.e. T1 and T2 
 -
