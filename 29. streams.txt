@@ -5,6 +5,7 @@ depending on the way we construct the pipeline
 -useful when we deal with bulk processing (processing a lot of data)
 -useful when we have to perform parallel processing 
 
+
 components of stream:
 -we have a collection with us 
 -step1: create a stream, from the data source like array or collection or etc.
@@ -20,11 +21,15 @@ components of stream:
     -like collect, reduce, count, etc. 
     -these operations produces the output of the stream 
     -after the terminal operation, the stream gets closed and no further operations can be performed on 
+-once the terminal operation is used on a stream, the stream gets closed/consumed and then cannot be used for further 
+purposes
+
 
 lazy nature of intermediate operations:
 -the lazy nature means that the intermediate operations wont take place until and unless we apply the terminal 
 operation on the stream
    
+
 different ways of creating a stream:
 -using collection 
 -using arrays 
@@ -32,11 +37,13 @@ different ways of creating a stream:
 -using stream builder
 -using stream iterate
 
-sequence of stream operations:
+
+sequence of stream operations:(very important concept)
+-bmp 
+-dimag lagake padh liya 
+
+
+parallel stream:
 -
-
-
-
-
 
 
