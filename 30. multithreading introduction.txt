@@ -36,5 +36,9 @@ components of the JVM instance:
     -its read only, since we cannot change the machine code directly
     -if we want to change the machine code, we have to change the bytecode and if we want to change the bytecode, we have tp 
     change the source code and re-run it and then again a new process is created and the same things will happen
-    -all the threads within the same progress shares the same code segment 
-     
+    -all the threads within the same progress shares the same code segment
+-data segment:
+    -contains the data which should be shared among all the threads at a global scale
+    -contains the global variables and static variables, because they are the data at the global scale
+    -
+
