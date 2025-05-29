@@ -30,15 +30,37 @@ for it
 and if it asks for more, then the OutOfMemoryError will occur, denoting that the heap is full with no memory
 
 components of the JVM instance:
--heap memory: contains the heap memory allocated to the JVM instance for the created process
+-heap memory: 
+    -contains the heap memory allocated to the JVM instance for the created process
+    -objects/references created at the runtime using the new keyword are stored here 
+    -shared among all the threads of the same process 
+    -threads can read the data and also modify it 
+    -since its a shared resource and write is allowed by the threads, synchronization should be present
 -code segment: 
     -contains the compiled bytecode or the machine code which the CPU understands
     -its read only, since we cannot change the machine code directly
+    -since its read only, we dont need synchronization
     -if we want to change the machine code, we have to change the bytecode and if we want to change the bytecode, we have tp 
     change the source code and re-run it and then again a new process is created and the same things will happen
     -all the threads within the same progress shares the same code segment
 -data segment:
     -contains the data which should be shared among all the threads at a global scale
     -contains the global variables and static variables, because they are the data at the global scale
-    -
+    -all the threads share the same data segment 
+    -this is read and write part i.e. threads can read the data and also modify the data 
+    -synchronization is requires between multiple threads for reading and writing the data
+-stack:
+    -each thread has its own stack
+    -stack contains the local variables and methods calls for the thread 
+-register:
+    -when the JIT compiles the bytecode into machine code for the machine, this component(register) helps in optimizing 
+    the generated machine code 
+    -each thread has its own register 
+    -helps in context switching also (will study it later)
+-counter:
+    -also called the program counter or PC 
+    -each thread has its own counter 
+    -it points to the instruction which is being executed right now in the stack 
+    -increments the counter after successfull execution of the instruction 
+    
 
