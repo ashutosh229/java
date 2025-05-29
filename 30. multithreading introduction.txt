@@ -75,6 +75,11 @@ challenges of multithreading:
 -synchronized overhead
 -testing and debugging is difficult because complex system 
 
+multitasking v/s multithreading:
+-multitasking refers that we are creating multiple processes (also called tasks)
+-multithreading refers that we are creating multiple threads for the same process 
+
+
 
 
 
